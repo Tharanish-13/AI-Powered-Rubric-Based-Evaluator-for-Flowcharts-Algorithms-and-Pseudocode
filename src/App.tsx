@@ -17,7 +17,6 @@ import { Register } from './pages/auth/Register';
 import { StudentDashboard } from './pages/student/StudentDashboard';
 import { StudentAssignments } from './pages/student/StudentAssignments';
 
-// Create query client
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
